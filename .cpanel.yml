@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/lbcwobmy/public_html/portfolio_website
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp src -R $DEPLOYPATH
